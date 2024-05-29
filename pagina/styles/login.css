@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('/image/background.jpg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  color: #333333; /* Dark gray */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(51, 51, 51, 0.836); /* Slightly transparent white */
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  flex: 1;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.logo-container img {
+  width: 180px;
+}
+
+.form-container {
+  flex: 1;
+  max-width: 400px;
+}
+
+h2 {
+  text-align: center;
+  color: #ffae00; /* Orange */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #ffffff; /* White */
+  background-color: #ffae00; /* Orange */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e59400;
+}
+
+p {
+  margin: 10px 0;
+}
+
+a {
+  color: #ffae00; /* Orange */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
